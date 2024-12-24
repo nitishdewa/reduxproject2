@@ -1,0 +1,175 @@
+
+.home {
+    text-align: center;
+    margin-top: 80px;
+    padding: 20px;
+    background: linear-gradient(135deg, #2980b9, #27ae60);
+    /* Modern gradient */
+    color: white;
+    margin-top: 0;
+  }
+  
+  .home h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 20px;
+    animation: fadeInDown 1s ease-in-out;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+    /* Text shadow for focus */
+  }
+  
+  .home p {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    animation: fadeInUp 1s ease-in-out;
+    font-weight: 400;
+    color: #e0f7fa;
+    /* Soft light cyan color that matches the background */
+  }
+  
+  
+  .home img {
+    width: 80%;
+    max-width: 1200px;
+    height: auto;
+    margin: 30px auto;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    animation: fadeIn 1.5s ease;
+  }
+  
+  .home button {
+    padding: 12px 30px;
+    background: linear-gradient(135deg, #2980b9, #34495e);
+    /* Gradient button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .home button:hover {
+    background: linear-gradient(135deg, #27ae60, #2980b9);
+    color: #ecf0f1;
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    /* Stronger shadow on hover */
+  }
+  
+  @keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  .home {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .offer-banner {
+    background: linear-gradient(135deg, #3498db, #2ecc71); /* Blue-Green Gradient */
+    padding: 20px 0;
+    margin: 20px 0;
+    border-radius: 10px;
+    color: white; /* Text color for contrast */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  
+  
+  
+  .offers {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px; /* Space between images */
+  }
+  
+  .offer-item {
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .offer-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .offer-item p {
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Hover effect on images */
+  .offer-item:hover img {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .home-image {
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
